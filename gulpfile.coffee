@@ -52,10 +52,10 @@ gulp.task 'vendor', ->
 # watch
 gulp.task 'watch', ['build', 'server'], ->
 
-  gulp.watch 'src/**/*.scss', ['sass', 'reload']
-  gulp.watch 'src/**/*.coffee', ['coffee', 'reload']
-  gulp.watch 'src/**/*.jade', ['jade', 'reload']
-  gulp.watch 'bower_components/**/*.js', ['vendor', 'reload']
+  gulp.watch 'src/**/*.scss', ['sass']
+  gulp.watch 'src/**/*.coffee', ['coffee']
+  gulp.watch 'src/**/*.jade', ['jade']
+  gulp.watch 'bower_components/**/*.js', ['vendor']
 
   # reload
   gulp.watch 'build/*.html', ['reload']
