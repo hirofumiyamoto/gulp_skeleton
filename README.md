@@ -18,5 +18,5 @@ gulp.jsインストール
 sassインストール  
 CoffeeScriptインストール
 
-こっちはbrowserify
+こっちはbrowser sync  
 いろいろあってよくわからn
