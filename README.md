@@ -16,5 +16,7 @@ macだと`$ sudo npm install`
 必要であれば  
 gulp.jsインストール  
 sassインストール  
-CoffeeScriptインストール  
-browserifyインストール
+CoffeeScriptインストール
+
+こっちはbrowserify
+いろいろあってよくわからn
